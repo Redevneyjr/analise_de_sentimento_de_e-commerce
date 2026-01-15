@@ -1,0 +1,37 @@
+# --- Python ---
+# Ignora pastas de ambientes virtuais (onde ficam as bibliotecas instaladas)
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+
+# Ignora arquivos compilados do Python (cache)
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Dados e Saídas ---
+# Ignora o arquivo de dados bruto que o Python gera. 
+# Motivo: No GitHub você sobe o CÓDIGO, não necessariamente o arquivo de dados pesado.
+# Se quiser subir um exemplo pequeno, apague a linha abaixo.
+*.csv
+*.xlsx
+*.log
+
+# --- Power BI ---
+# Arquivos temporários que o Power BI cria ao abrir o projeto
+*.tmp
+*.pbit
+*.pbix.temp
+
+# --- Sistema Operacional ---
+# Arquivos invisíveis do Windows e Mac
+.DS_Store
+Thumbs.db
+
+# --- Configurações de Editor ---
+# Pastas de configurações do VS Code ou PyCharm
+.vscode/
+.idea/
